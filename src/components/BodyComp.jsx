@@ -13,12 +13,7 @@ function BodyComp() {
   return (
     <div>
         <Box sx={{width:'35%',margin:'auto',mt:7,maxHeight:'680px',overflowY:'scroll',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)'}}>
-            {/* <AppBar position="static" sx={{backgroundColor:'#fff',color:'#000',display:'flex'}}>
-                <Toolbar sx={{boxShadow:'none'}}>
-                    <Typography variant='h4' sx={{fontWeight:'750',mr:40}}>Cappuccino</Typography>
-                    <CloseTwoToneIcon/>
-                </Toolbar> 
-            </AppBar> */}
+            
             <Stack direction='row' sx={{display:'flex',justifyContent:'space-between',m:3,mt:2,position:'sticky'}}>
                 <Typography variant='h4' sx={{fontWeight:'750'}}>Cappuccino</Typography>
                 <CloseTwoToneIcon/>
